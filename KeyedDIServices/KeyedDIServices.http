@@ -1,0 +1,14 @@
+@KeyedDIServices_HostAddress = https://localhost:7288
+
+GET {{KeyedDIServices_HostAddress}}/Demo/ServiceA
+Accept: application/json
+
+###
+
+GET {{KeyedDIServices_HostAddress}}/Demo/ServiceB
+Accept: application/json
+
+###
+
+GET {{KeyedDIServices_HostAddress}}/Demo/ServiceC
+Accept: application/json
